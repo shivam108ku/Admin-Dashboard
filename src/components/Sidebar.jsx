@@ -4,7 +4,7 @@ import {AnimatePresence, motion} from 'framer-motion';
 import { Link } from 'react-router';
 
 const SIDEBAR_ITEMS = [
-    { name:"Overview",icon:BarChart2, color: "#6366f1", path:'/'},
+    { name:"Overview",icon:BarChart2, color: "#6366f1", href:'/'},
     { name:"User",icon:ShoppingBag, color: "#8B5CF6", href:'/users'},
     { name:"Sales",icon:DollarSign, color: "#EC4899", href:'/sales'},
     { name:"Orders",icon:ShoppingCart, color: "#10B981", href:'/orders'},

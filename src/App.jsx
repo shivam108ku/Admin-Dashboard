@@ -22,7 +22,6 @@ const App = () => {
         <Route path='/products' element={<ProductPage/>} />
       </Routes>
 
-
     </div>
   )
 }
